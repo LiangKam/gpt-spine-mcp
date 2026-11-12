@@ -176,6 +176,15 @@ default head classifier recognizes `head,face,golova,crown,tooth`; override it:
 export SPINE_HEAD_WORDS="kopf,gesicht,krone"
 ```
 
+## Alternatives
+
+No more mature open-source project covers the same PSD → Spine 4.2 auto-rig +
+animation + MCP/agent pipeline. The official PhotoshopToSpine script only
+exports layers (no rigging or animation). DragonBones, COA Tools (Blender),
+and Live2D/Inochi2D are manual workflows or a different format ecosystem. The
+comparison, including recent AI/MCP Spine projects, is in
+[`docs/ALTERNATIVES.md`](docs/ALTERNATIVES.md).
+
 ## Development and verification
 
 ```bash
